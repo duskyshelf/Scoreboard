@@ -1,24 +1,24 @@
-.App {
+.Scoreboard {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
+.Scoreboard-logo {
+  animation: Scoreboard-logo-spin infinite 20s linear;
   height: 80px;
 }
 
-.App-header {
+.Scoreboard-header {
   background-color: #222;
   height: 150px;
   padding: 20px;
   color: white;
 }
 
-.App-intro {
+.Scoreboard-intro {
   font-size: large;
 }
 
-@keyframes App-logo-spin {
+@keyframes Scoreboard-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
