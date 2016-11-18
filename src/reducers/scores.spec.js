@@ -79,33 +79,4 @@ describe('scores reducer', () => {
     ])
   })
 
-  it('should handle TOGGLE_SCORE', () => {
-    expect(
-      scores([
-        {
-          text: 'Run the tests',
-          completed: false,
-          id: 1
-        }, {
-          text: 'Use Redux',
-          completed: false,
-          id: 0
-        }
-      ], {
-        type: 'TOGGLE_SCORE',
-        id: 1
-      })
-    ).toEqual([
-      {
-        text: 'Run the tests',
-        completed: true,
-        id: 1
-      }, {
-        text: 'Use Redux',
-        completed: false,
-        id: 0
-      }
-    ])
-  })
-
 })
