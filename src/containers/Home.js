@@ -4,13 +4,13 @@ import { connect } from 'react-redux'
 import Scoreboard from '../components/Scoreboard'
 import * as Actions from '../actions'
 
-const App = ({todos, actions}) => (
+const Home = ({todos, actions}) => (
   <div>
     <Scoreboard />
   </div>
 )
 
-App.propTypes = {
+Home.propTypes = {
   actions: PropTypes.object.isRequired
 }
 
@@ -25,4 +25,4 @@ const mapDispatchToProps = dispatch => ({
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(App)
+)(Home)
